@@ -10,6 +10,10 @@ SQLmap Pivot is used to link SQLmap with complex SQL Injections which need progr
 The script will create an simple http server at http://localhost/ with a vulnerable parameters "?p=", easy to use for sqlmap or humans.
 This parameters is directly linked to the "req" function (parameter "sqli" of the function).
 You can easyly craft your SQLi request in this function using "sqli" as injection payload.
+```bash
+$python3 SQLmapPivot.py
+```
 
 `BEERWARE LICENSE`
+
 Zeecka
