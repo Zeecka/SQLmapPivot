@@ -1,5 +1,5 @@
 # SQLmapPivot
-SQLmap Pivot is used to link SQLmap with complex SQL Injections which need programming process
+SQLmapPivot is used to link SQLmap with complex SQL Injections which need programming process.
 
 ## Example
 - You can use SQLmapPivot when you have to encrypt your injection with AES or encode it with weird base.
