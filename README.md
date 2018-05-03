@@ -13,6 +13,7 @@ You can easyly craft your SQLi request in this function using "sqli" as injectio
 ```bash
 $python3 SQLmapPivot.py
 ```
+![ScreenShot](screen.png)
 
 `BEERWARE LICENSE`
 
