@@ -27,7 +27,7 @@ class httpHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         self._set_headers()
-        if "?p=" in self.path:
+        if PARAM in self.path:
             sqliParam = self.path.split(PARAM)[1]
             response = req(urllib.parse.unquote(sqliParam))
             self.wfile.write(response)
